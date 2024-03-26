@@ -30,7 +30,7 @@ body {
 .sectiontitle {
   font-size: 45px;
   font-weight: 700;
-  color: rgb(241, 149, 82);
+  color: #f19552;
 }
 
 /* set the navigation styles */
@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(241, 149, 82);
+  color: #f19552;
   text-decoration: none;
 }
 
@@ -117,12 +117,13 @@ nav ul li:hover a {
 }
 
 /* set the <a> tags' styles */
+button[type="submit"],
 .linkcontainer a {
   padding: 10px 20px;
   font-size: 16px;
-  background: rgb(241, 149, 82);
+  background: #f19552;
   color: white;
-  border: 2px solid chol;
+  border: 2px solid #fff;
   border-radius: 10px;
   margin-right: 5px;
   cursor: pointer;
@@ -219,7 +220,7 @@ nav ul li:hover a {
   align-content: space-between;
   border-radius: 6px;
   margin-right: 4px;
-  background-color: rgb(241, 149, 82);
+  background-color: #f19552;
   padding: 5px 10px;
   display: inline-block;
   color: white;
@@ -228,6 +229,64 @@ nav ul li:hover a {
 
 /* ------------------------------ */
 /* End of styling projectsection */
+
+/* Start of styling contactsection */
+/* ----------------------------- */
+
+/* Set contactsection stlye */
+#contactsection {
+  width: 80%;
+  margin: auto;
+  height: 100dvh;
+}
+
+/* Set the contactcontainer style */
+.contactcontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(241, 149, 82, 0.3);
+}
+
+/* Set the label styling */
+label {
+  display: block;
+}
+
+/* Set style for form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 400px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: medium;
+  color: #f19552;
+  border: 1px solid #f19552;
+  border-radius: 10px;
+  border: 2px solid rgb(241, 149, 82, 0.3);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Set style for Reset button */
+button[type="reset"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #c7763b;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ----------------------------- */
+/* End of styling contactsection */
 
 /* Start of styling miscellaneous elements */
 /* ------------------------------ */
@@ -240,8 +299,15 @@ nav ul li:hover a {
 .top a {
   text-decoration: none;
   font-size: small;
-  color: rgb(241, 149, 82);
+  color: #f19552;
   margin-top: 1.5rem;
+}
+
+.divider {
+  margin: auto;
+  width: 80%;
+  height: 5em;
+  border-top: 1px dashed rgb(241, 149, 82);
 }
 /* ------------------------------ */
 /* End of styling miscellaneous elements */
